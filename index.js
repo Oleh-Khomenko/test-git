@@ -1,6 +1,10 @@
-console.log('Hello world')
-console.log('test logs')
+function setup() {
+    const Sizes = {
+        width: window.innerWidth,
+        height: window.innerHeight,
+    }
+}
 
 function main() {
-    console.log('do something!');
+    console.log(Sizes);
 }
